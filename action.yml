@@ -77,8 +77,8 @@ inputs:
     default: false
   nethunter:
     description: 'Enable Kali nethunter'
-    required: false
-    default: false
+    required: true
+    default: true
   nethunter-patch:
     description: 'patch config'
     required: false
