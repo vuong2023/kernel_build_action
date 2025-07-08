@@ -13,18 +13,18 @@ jobs:
 
     steps:
       - name: Build Kernel
-        uses: dabao1955/kernel_build_action@main
+        uses: vuong2023/kernel_build_action@main
         with:
           kernel-url: https://github.com/VDavid003/universal7885_treeui_kernel
-#          kernel-dir: 
+          kernel-dir: universal7885_treeui_kernel
           kernel-branch: 4.14_jackpotlte
           config: exynos7885-jackpotlte_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-#          ksu: true
-#          ksu-version: v0.9.5
-          nethunter: true
+          ksu: true
+          ksu-version: v0.9.5
+#          nethunter: true
 #          nethunter-patch: true
           android-version: 12
           aosp-clang-version: r383902
