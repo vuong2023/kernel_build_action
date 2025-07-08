@@ -36,7 +36,7 @@ jobs:
           aosp-gcc: true
           aosp-clang: true
           ksu: true
-          ksu-version: v0.9.5
+          ksu-version: v0.9.4
 #          nethunter: true
 #          nethunter-patch: true
           android-version: 11
