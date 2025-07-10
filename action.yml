@@ -100,7 +100,7 @@ inputs:
   other-gcc32-branch:
     required: false
   other-gcc64-url:
-    required: false
+    required: true
   other-gcc64-branch:
     required: false
   aosp-clang:
