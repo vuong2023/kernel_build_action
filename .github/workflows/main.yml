@@ -39,7 +39,7 @@ jobs:
           ksu-version: v0.9.4
 #          nethunter: true
 #          nethunter-patch: true
-          android-version: 11
+          android-version: 12
           aosp-clang-version: r416183b
           disable-lto: true
           anykernel3: true
