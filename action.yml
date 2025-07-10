@@ -111,7 +111,7 @@ inputs:
     required: false
     default: "r383902"
   other-clang-url:
-    required: false
+    required: true
   other-clang-branch:
     required: false
     default: main
