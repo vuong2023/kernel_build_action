@@ -38,7 +38,7 @@ jobs:
           other-gcc64-url: https://github.com/ravindu644/Android-Kernel-Tutorials/releases/download/toolchains/gcc-cfp-jopp-only.tar.gz
           other-clang-url : https://github.com/ravindu644/Android-Kernel-Tutorials/releases/download/toolchains/clang-4639204-cfp-jopp.tar.gz
           ksu: true
-          ksu-version: v0.9.4
+          ksu-version: 109442f
 #          nethunter: true
 #          nethunter-patch: true
 #          android-version: 12
