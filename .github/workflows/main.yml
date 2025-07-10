@@ -33,13 +33,14 @@ jobs:
           kernel-branch: 4.14_jackpotlte
           config: exynos7885-jackpotlte_defconfig
           arch: arm64
-          aosp-gcc: true
-          aosp-clang: true
+#          aosp-gcc: true
+#          aosp-clang: true
+          other-gcc64-url: https://github.com/ravindu644/Android-Kernel-Tutorials/releases/download/toolchains/gcc-cfp-jopp-only.tar.gz
           ksu: true
           ksu-version: v0.9.4
 #          nethunter: true
 #          nethunter-patch: true
-          android-version: 12
-          aosp-clang-version: r416183b
+#          android-version: 12
+#          aosp-clang-version: r416183b
           disable-lto: true
           anykernel3: true
